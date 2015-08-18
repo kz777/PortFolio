@@ -20,16 +20,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Skills</a>
+                        <a class="page-scroll" href="#team">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Resume</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Me</a>
+                        <a class="page-scroll" href="#about">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -47,13 +47,50 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To My Portfolio!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#team" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
 
+    <!-- Abot Me Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted">Thank you for stopping by my website!</h3>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="team-member">
+                        <img src="assets/team/7.jpg" class="img-responsive img-circle" alt="me">
+                        <h4>Aslan Ussayev</h4>
+                        <p class="text-muted">Web Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://github.com/kz777"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="mailto:usprof777@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/aslanussayev"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+ 
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">I am a software developer who is extremely enthusiastic about fast-paced web development and building products with solid foundations. I'm specialized in Ruby, Ruby on Rails, HTML5, CSS3 & SASS, Test-Driven Development, Object-Oriented Javascript including AJAX, JSON and JQuery, Bootstrap, Git, Heroku and Agile Development. I strive for high attention to detail even with short timelines. Incomplete or non-reusable solutions are my personal nemesis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- Services Section -->
-    <section id="services">
+   <!--  <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -88,7 +125,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -96,21 +133,21 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">All my Projects deployed to Heroku. Just click the Images to interact with them online.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="https://desolate-shelf-5833.herokuapp.com" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/portfolio/b.jpg" class="img-responsive" alt="">
+                        <img src="assets/portfolio/t.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
+                        <h4>Twitter Clone</h4>
                             <p class="text-muted">
                                 I have developed(from scratch) a professional-grade application and deployed to Heroku.This application includes examples of all the major features of Rails, including models, views, controllers, templates, partials, filters, validations, callbacks, has_many/belongs_to and has_many :through associations, security, testing, and deployment. Basically It’s a Twitter Clone: you can create your own profile, Tweet comments(short 140-character messages) with photos, follow/unfollow others e.t.c 
                                 I have build the app without using any gems for user authentication. I went through all the steps involved in adding validation, building different models (user, micropost and session), creating partials, adding AJAX,bootstrap, passing information between different classses and handling errors.
@@ -120,48 +157,52 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="https://infinite-reef-5403.herokuapp.com" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="assets/portfolio/n.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Online Notebook</h4>
+                        <p class="text-muted">I just finished building an online Notebook web application. I spent a bit more time on design and it was well worth it. The design came out pretty beautiful :)
+                             About the application: It's fairly simple, it has users and notes. Unlike previous applications where it was more social,in this app, a user can only see the notes that they create and no one else's.
+                             You are very welcome to interact with it here at : https://infinite-reef-5403.herokuapp.com
+                            </p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="http://frozen-forest-5738.herokuapp.com" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="assets/portfolio/d.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Dev Match web application</h4>
+                        <p class="text-muted">I have experience building a Rails application from front to back. It has features found in sites   like Facebook and Dropbox such as user profiles, sending messages, uploading files, and the ability to accept credit card payments and setup subscriptions. The app supports e-commerce functionality with Stripe that I integrated from scratch - my users can sign up for free or pay a monthly fee and automatically get billed via recurring charges. I also integrated the Sendgrid API to give the application the ability to send out email notifications and I’ve deployed the application to live Heroku servers. You are welcome to interact with it here: http://frozen-forest-5738.herokuapp.com</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="https://sleepy-beach-8871.herokuapp.com" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="assets/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="assets/portfolio/blog.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Blog</h4>
+                        <p class="text-muted">This is a simple blog, where I can create posts (as well as edit and delete them/log in and log out).Visitors can comment on posts. View the Demo application here at:   https://sleepy-beach-8871.herokuapp.com
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <!-- <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -190,7 +231,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- About My Learning Journey -->
@@ -198,8 +239,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About My Learning Journey</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Technical Skills</h2>
+                    <h3 class="section-subheading text-muted">"There is no difference between living and learning... it is impossible <br> and misleading and harmful to think of them as being separate.” <br> John Holt  </h3>
                 </div>
             </div>
             <div class="row">
@@ -207,65 +248,67 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="assets/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="assets/about/011.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <!-- <h4>2009-2011</h4> -->
+                                    <h4 class="subheading">Programming Languages & Frameworks:</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Ruby on Rails, HTML5, CSS3 & SASS, Test-Driven Development, Object-Oriented Javascript including AJAX and JQuery, Bootstrap, AngularJS</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="assets/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="assets/about/202.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <!-- <h4>March 2011</h4> -->
+                                    <h4 class="subheading">Deployment and Platforms:</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Heroku, Amazon Web Services (AWS) <br> OS X, Windows and Linux/Unix</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="assets/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="assets/about/33.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                   <!--  <h4>December 2012</h4> -->
+                                    <h4 class="subheading">Tools:</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Sublime Text Editor, Notepad++, Terminal, iTerm, RVM, Git, GitHub, Bitbucket, PyCharm, Komodo Edit, Virtualenv, Nitrous, Cloud9</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="assets/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="assets/about/44.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <!-- <h4>July 2014</h4> -->
+                                    <h4 class="subheading">In Addition:</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Experienced developing web services and APIs in Ruby on Rails; <br>   
+                                        Good understanding of the model-view-controller (MVC) architecture and PostgreSQL & MySQL skills including database design and optimization; <br>                                Experienced with Test Driven Development;
+                                    </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>Thanks
+                                    <br>for your
+                                    <br>Time!</h4>
                             </div>
                         </li>
                     </ul>
@@ -274,42 +317,9 @@
         </div>
     </section>
 
-    <!-- Abot Me Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Me</h2>
-                    <h3 class="section-subheading text-muted">Hi! I’m Aslan Ussayev, a Ruby on Rails developer. .</h3>
-                </div>
-            </div>
-            <div class="row">
 
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="team-member">
-                        <img src="assets/team/7.jpg" class="img-responsive img-circle" alt="me">
-                        <h4>Aslan Ussayev</h4>
-                        <p class="text-muted">Web Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/kz777"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-user"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/aslanussayev"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
- 
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Clients Aside -->
+    <!-- Learning Resources -->
     <aside class="clients">
         <div class="container">
             <div class="row">
@@ -343,7 +353,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">I am here to answer any questions you may have about my experiences. Reach out to me and I'll respond as soon as I can..</h3>
                 </div>
             </div>
             <div class="row">
