@@ -18,6 +18,10 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({ target: '.navbar-fixed-top' });
 
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+});
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();

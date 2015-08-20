@@ -14,6 +14,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
 }
 
 .text-muted {
@@ -660,12 +661,16 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../assets/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .section-subheading .text-muted{
     color: #fff;
 }
 
